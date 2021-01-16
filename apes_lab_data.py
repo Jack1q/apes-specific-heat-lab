@@ -17,6 +17,7 @@ plot.xlabel('Time (s)')
 plot.ylabel("Temperature (\N{DEGREE SIGN}C)")
 plot.ylim(bottom=10, top=120)
 plot.grid('on',alpha=0.25, linewidth=2)
+plot.title('Temperature of Materials (\N{DEGREE SIGN}C) vs. Time (s)')
 
 plot.legend()
 plot.show()
